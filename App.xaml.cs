@@ -21,7 +21,6 @@ namespace DataGrid_Themes
     {
 		public App()
         {
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(Syncfusion.Licensing.DemoCommon.FindLicenseKey());
         }
     }
 }

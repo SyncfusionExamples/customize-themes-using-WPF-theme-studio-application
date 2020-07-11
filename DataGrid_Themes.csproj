@@ -36,39 +36,38 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Syncfusion.Data.WPF">
-      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\Syncfusion.Data.WPF.18.2.0.44\lib\net46\Syncfusion.Data.WPF.dll</HintPath>
     </Reference>
-    <Reference Include="Syncfusion.SampleLayout">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Syncfusion.Grid.WPF">
+      <HintPath>packages\Syncfusion.Grid.WPF.18.2.0.44\lib\net46\Syncfusion.Grid.WPF.dll</HintPath>
     </Reference>
-    <Reference Include="Syncfusion.SfGrid.WPF">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Syncfusion.GridCommon.WPF">
+      <HintPath>packages\Syncfusion.GridCommon.Wpf.18.2.0.44\lib\net46\Syncfusion.GridCommon.WPF.dll</HintPath>
     </Reference>
-    <Reference Include="Syncfusion.SfShared.WPF">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
-    <Reference Include="Syncfusion.SfInput.WPF">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
-    <Reference Include="Syncfusion.Shared.WPF">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>packages\Syncfusion.Licensing.18.2.0.44\lib\net46\Syncfusion.Licensing.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Linq.Base">
-      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\Syncfusion.Linq.Base.18.2.0.44\lib\net46\Syncfusion.Linq.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGrid.WPF">
+      <HintPath>packages\Syncfusion.SfGrid.WPF.18.2.0.44\lib\net46\Syncfusion.SfGrid.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfInput.WPF">
+      <HintPath>packages\Syncfusion.SfInput.WPF.18.2.0.44\lib\net46\Syncfusion.SfInput.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfShared.WPF">
+      <HintPath>packages\Syncfusion.SfShared.WPF.18.2.0.44\lib\net46\Syncfusion.SfShared.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SfSkinManager.WPF">
-      <SpecificVersion>False</SpecificVersion>
-      <Private>True</Private>
+      <HintPath>packages\Syncfusion.SfSkinManager.WPF.18.2.0.44\lib\net46\Syncfusion.SfSkinManager.WPF.dll</HintPath>
     </Reference>
-    <Reference Include="Syncfusion.Grid.Wpf">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
-    <Reference Include="Syncfusion.GridCommon.Wpf">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Syncfusion.Shared.WPF">
+      <HintPath>packages\Syncfusion.Shared.WPF.18.2.0.44\lib\net46\Syncfusion.Shared.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Themes.MaterialDark.WPF, Version=18.2460.0.44, Culture=neutral, PublicKeyToken=e1da1d9bc9725b9d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Assembly\Syncfusion.Themes.MaterialDark.WPF.dll</HintPath>
+      <HintPath>C:\Users\MageshyadavM\Desktop\New folder (10)\bin\Release\Syncfusion.Themes.MaterialDark.WPF.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -125,6 +124,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -138,9 +138,6 @@
     <Resource Include="App.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <Reference Include="Syncfusion.Licensing" />
-  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Female.png" />
     <Resource Include="Images\Insufficient.png" />
