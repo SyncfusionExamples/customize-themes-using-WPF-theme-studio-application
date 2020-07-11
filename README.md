@@ -2,4 +2,4 @@
 This repository describes how to customize the themes for datagrid using WPF ThemeStudio
 
 
-![Output](Images/Location.png)
+![Output](Images/location.png)
